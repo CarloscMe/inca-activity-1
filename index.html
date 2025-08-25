@@ -4,12 +4,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>La IA</title>
 </head>
 <body>
 
-    
-    
+    <header>
+        <nav class="navbar">
+            <h1>La IA</h1>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="./img/menu.png" alt="menu hamburguesa">
+            </label>
+            <ul class="navbar__item">
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#quienes_somos">Quienes somos</a></li>
+                <li><a href="#contacto">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h2>que es la iA?</h2>
+            <p>La inteligencia artificial es una rama de la informática que se dedica al desarrollo de sistemas capaces
+                de realizar
+                tareas que requieren inteligencia, como el razonamiento, el aprendizaje, la percepción, la toma de
+                decisiones
+                y la comprensión del lenguaje, imitando procesos cognitivos humanos mediante algoritmos y modelos
+                computacionales.</p>
+            <img src="https://www.iberdrola.com/documents/20125/3718402/historia-ia-746x419.jpg/177df891-3f96-d555-0a68-8c80e0d83b62?t=1701700838577"
+                alt="ia">
+            <h2>aplicaciones de la IA en el desarrollo web</h2>
+            <p>La inteligencia artificial (IA) tiene diversas aplicaciones en el desarrollo web, mejorando tanto la
+                funcionalidad del sitio como
+                la experiencia del usuario. Algunas de sus principales aplicaciones incluyen:</p>
+            <li>
+                <h3>Asistentes de programación:</h3>
+                <p>Herramientas como GitHub Copilot, Tabnine o Amazon CodeWhisperer sugieren código en tiempo real,
+                    completan funciones, generan comentarios y detectan errores</p>
+            </li>
+
+            <li>
+                <h3>web scraping:</h3>
+                <p>consiste en extraer datos automáticamente de sitios web. Cuando se combina con inteligencia
+                    artificial, especialmente con técnicas de procesamiento del lenguaje natural (NLP), visión por
+                    computadora y aprendizaje automático (ML), se vuelve mucho más inteligente, adaptable y escalable.
+                </p>
+            </li>
+
+            <li>
+                <h3>Optimización automática de SEO:</h3>
+                <p>Herramientas como Surfer SEO o Clearscope usan IA para analizar palabras clave, estructura de
+                    contenido y competencia, y recomiendan mejoras.</p>
+            </li>
+
+            <li>
+                <h3>CDN inteligente:</h3>
+                <p>Sistemas de red de distribución de contenido (CDN) que usan IA para enrutar tráfico de forma
+                    eficiente según la ubicación del usuario y la carga del servidor.</p>
+            </li>
+
+            <li>
+                <h3>Testing inteligente:</h3>
+                <p>IA puede generar casos de prueba, detectar errores en interfaces de usuario y predecir fallos antes
+                    del lanzamiento.</p>
+            </li>
+            <img src="https://megaprofe.es/wp-content/uploads/2024/01/Podium-de-Las-5-mejores-herramientas-con-IA-para-usar-en-el-aula-2024-.jpg"
+                alt="usos de ia">
+        </article>
+    </section>
+
+
+    <div class="container">
+        <h2>Desarrollo Web: Tradicional vs Asistido por IA (HTML & CSS)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Área</th>
+                    <th>Desarrollo Tradicional</th>
+                    <th>Desarrollo Asistido por IA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Escritura de código</strong></td>
+                    <td>El desarrollador escribe todo el HTML y CSS manualmente.</td>
+                    <td>IA sugiere o genera código automáticamente (ej: GitHub Copilot, Tabnine).</td>
+                </tr>
+                <tr class="highlight-traditional">
+                    <td><strong>Velocidad</strong></td>
+                    <td>Lento, depende de la experiencia del desarrollador.</td>
+                    <td>Muy rápido: prototipos en segundos con IA generativa (ej: "Crea un navbar responsive").</td>
+                </tr>
+                <tr>
+                    <td><strong>Diseño visual</strong></td>
+                    <td>Se requiere conocimiento avanzado de CSS (Flexbox, Grid, animaciones).</td>
+                    <td>IA convierte bocetos o descripciones en código CSS real (ej: Figma + plugins de IA).</td>
+                </tr>
+                <tr class="highlight-ia">
+                    <td><strong>Depuración</strong></td>
+                    <td>Búsqueda manual de errores en la consola o con herramientas del navegador.</td>
+                    <td>IA detecta errores de sintaxis, accesibilidad o compatibilidad y sugiere correcciones.</td>
+                </tr>
+                <tr>
+                    <td><strong>Accesibilidad</strong></td>
+                    <td>El desarrollador debe recordar añadir atributos ARIA, etiquetas semánticas, etc.</td>
+                    <td>IA audita y corrige automáticamente problemas de accesibilidad (ej: AccessiBe, axe + IA).</td>
+                </tr>
+                <tr class="highlight-traditional">
+                    <td><strong>Optimización</strong></td>
+                    <td>El desarrollador optimiza manualmente el CSS (BEM, evitar redundancias, etc.).</td>
+                    <td>IA sugiere código más limpio, elimina estilos no usados y mejora el rendimiento.</td>
+                </tr>
+                <tr>
+                    <td><strong>Aprendizaje</strong></td>
+                    <td>Requiere tiempo para dominar HTML/CSS y buenas prácticas.</td>
+                    <td>Los principiantes pueden crear interfaces funcionales con ayuda de IA (aprendizaje acelerado).
+                    </td>
+                </tr>
+                <tr class="highlight-ia">
+                    <td><strong>Personalización</strong></td>
+                    <td>Los cambios requieren edición manual del código.</td>
+                    <td>IA adapta estilos en tiempo real según el usuario (temas oscuros, tamaños, idioma).</td>
+                </tr>
+                <tr>
+                    <td><strong>Herramientas comunes</strong></td>
+                    <td>VS Code, Chrome DevTools, CodePen, manual de MDN.</td>
+                    <td>Copilot, Wix ADI, Uizard, Figma AI, ChatGPT, GitHub DALL·E (para diseño).</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <section>
+        <article>
+            <h2>herramientas basadas en iA</h2>
+            <ol>
+                <li>vercel</li>
+                <li>Builder.io</li>
+                <li>GitHub Copilot</li>
+                <li>Botpress</li>
+                <li>DALL·E</li>
+            </ol>
+
+            <img src="https://cdn.openwebinars.net/media/featured_images/105-herramientas-ia.webp" alt="herramientas">
+
+            <h2>el futuro de la IA</h2>
+            <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2024/09/futuro-programacion-era-ia-4113122.jpg?tf=3840x"
+                alt="futuro de la ia">
+            <p>Las perspectivas futuras sobre la evolución del desarrollo web con inteligencia artificial apuntan hacia
+                una transformación profunda en la forma en que se diseñan, construyen y mantienen los sitios y
+                aplicaciones web.
+                Se espera una creciente automatización de procesos, mayor personalización en la experiencia del usuario
+                y una
+                optimización continua basada en el análisis de datos en tiempo real. La inteligencia artificial jugará
+                un papel
+                central en la toma de decisiones estratégicas, adaptando dinámicamente los contenidos y funcionalidades
+                a las necesidades del entorno
+                digital. Esta evolución promete entornos más eficientes, accesibles e inteligentes, redefiniendo los
+                estándares de interacción y usabilidad
+                en la web.</p>
+
+        </article>
+    </section>
+
+    <footer>
+        &copy carlos carrillo 2025
+    </footer>
+
 </body>
 </html>

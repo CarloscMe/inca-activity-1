@@ -1,1 +1,119 @@
 @import "./app.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    min-height: 10dvh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgb(2, 239, 219), rgb(11, 76, 5));
+}
+
+nav{
+     padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+      flex-grow: 3;
+}
+
+ul{
+   flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu , label {
+    cursor: pointer;
+    display: none;
+}
+
+/*li{
+    padding: 20px;
+    transition: transform 1s ease-out;
+}
+
+li:hover{
+    transform: translateY(10px);
+}*/
+
+a, a:link, a:visited{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+    th, td {
+      padding: 14px 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #3498db;
+      color: white;
+      font-weight: 600;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f8fd;
+    }
+    tr:hover {
+      background-color: #e3f2fd;
+    }
+    .highlight-traditional {
+      background-color: #fff3cd;
+      font-weight: 500;
+    }
+    .highlight-ia {
+      background-color: #d1f7e3;
+      font-weight: 500;
+    }
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #7f8c8d;
+    }
+
+@media(max-width: 800px) {
+
+    label {
+        display: initial;
+    }
+
+    .navbar__item {
+        position: absolute;
+        left: 0;
+        top: 70px;
+        width: 100%;
+        background:  #0000004f;
+        flex-direction: column;
+        align-items: start;
+        display: none;
+    }
+
+    li{
+        margin: 10px 0 10px 10px;
+    }
+
+    #menu:checked~.navbar__item {
+        display: flex;
+    }
+
+}
+
