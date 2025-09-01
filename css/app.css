@@ -1,6 +1,5 @@
 :root {
-
-    
+  --general-color: #fff; 
 }
 
 section, div{
@@ -23,4 +22,16 @@ img{
     margin: 0 auto;
     border-radius: 15px;
     box-shadow: 0 10px 15px rgb(0, 0, 0);
+}
+
+.herramientas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+iframe{
+    width: 50%;
+    height: 50%;
+    border: none;
 }
